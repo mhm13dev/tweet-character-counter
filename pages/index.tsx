@@ -1,4 +1,6 @@
 import React from "react";
+import { BsTwitter } from "react-icons/bs";
+
 import { CircularProgressBar } from "@/components/circular.progress.bar";
 
 export default function Home() {
@@ -37,6 +39,17 @@ export default function Home() {
             strokeWidth={8}
           />
         </div>
+      </div>
+
+      <div className="mt-4 text-center">
+        <a
+          href="https://twitter.com/mhm13dev"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-500 hover:text-white hover:bg-blue-500 px-2 py-1 transition font-semibold hover:rounded border-b border-current inline-flex items-center gap-x-1"
+        >
+          <BsTwitter className="w-4 h-4" /> mhm13dev
+        </a>
       </div>
     </div>
   );
