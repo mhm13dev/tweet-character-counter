@@ -17,7 +17,7 @@ export default function Home() {
 
       <div className="mt-8 relative">
         <textarea
-          className="w-full h-40 p-3 ring-2 rounded focus:outline-none resize-none"
+          className="w-full h-48 p-3 ring-2 rounded focus:outline-none resize-none"
           placeholder="Type your tweet here..."
           value={postData.body}
           onChange={(e) =>
