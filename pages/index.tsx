@@ -31,7 +31,6 @@ export default function Home() {
 
         <div className="w-8 h-8 absolute bottom-2 right-0.5">
           <CircularProgressBar
-            className="w-full h-full"
             counterClassName="text-xs font-semibold"
             currentLength={postData.currentLength}
             maxLength={postData.maxLength}
