@@ -9,8 +9,8 @@ export default function Home() {
   });
 
   return (
-    <div className="max-w-xl mx-auto my-8 font-poppins">
-      <h1 className="font-bold text-center text-2xl">
+    <div className="sm:max-w-xl mx-2 sm:mx-auto my-8 font-poppins">
+      <h1 className="font-bold text-center text-lg sm:text-2xl">
         Character Counter For Tweet in Twitter <br />
         (with TypeScript, Tailwind CSS and SVG)
       </h1>
